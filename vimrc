@@ -8,3 +8,4 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+autocmd vimenter * NERDTree
