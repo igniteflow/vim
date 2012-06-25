@@ -9,7 +9,7 @@ set background=dark
 colorscheme solarized
 
 " nerdtree
-"autocmd vimenter * NERDTree
+map <F2> :NERDTreeToggle<CR>
 
 " python syntax higlighting
 au BufRead,BufNewFile *.py set filetype=python
